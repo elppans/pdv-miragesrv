@@ -2,10 +2,13 @@
 
 - Arquivo para SystemD: `/etc/systemd/system/mirage.service`
 
+- Atualizar Daemon do SystemD
+```bash
+sudo systemctl daemon-reload
+```
 - Ativar serviço
 ```bash
-systemctl daemon-reload
-systemctl enable --now mirage.service
+sudo systemctl enable mirage.service
 ```
 - Verificar status
 ```bash
