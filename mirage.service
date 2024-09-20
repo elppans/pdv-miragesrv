@@ -6,7 +6,7 @@ After=nss-lookup.target
 #StartLimitIntervalSec=0
 
 [Service]
-PIDFile=/usr/local/apache2/htdocs/manager/servico/mirageservicephp.pid
+PIDFile=/usr/local/apache22/htdocs/manager/servico/mirageservicephp.pid
 Type=forking
 Restart=always
 RestartSec=1s
