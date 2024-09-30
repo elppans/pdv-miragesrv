@@ -1,4 +1,4 @@
-# pdv_miragesrv
+# pdv-miragesrv
 
 - Arquivo para SystemD: `/etc/systemd/system/mirage.service`
 
